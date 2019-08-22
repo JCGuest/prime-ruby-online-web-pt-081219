@@ -1,5 +1,6 @@
 # def prime?(numbers)
 # returs true if number is prime
+
 require 'pry'
 
 def prime?(num)
