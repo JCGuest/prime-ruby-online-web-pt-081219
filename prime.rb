@@ -4,10 +4,10 @@
 
 def prime?(num)
   (2..(num - 1)).to_a.each do |n|
-    return true if num % n != 0
+    return false if num % n == 0
     
   end
-  false 
+  true
 end
 
 
