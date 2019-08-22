@@ -2,13 +2,13 @@
 # returs true if number is prime
 
 
-def prime?(num)
-  (2..(num - 1)).to_a.each do |n|
-    return true if num % n != 0
+# def prime?(num)
+#   (2..(num - 1)).to_a.each do |n|
+#     return true if num % n != 0
     
-  end
-  false 
-end
+#   end
+#   false 
+# end
 
 
 # def prime?(num)
