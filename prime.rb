@@ -1,1 +1,4 @@
+def prime?(num)
 
+
+end
